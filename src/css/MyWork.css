@@ -1,0 +1,76 @@
+.mywork-section {
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80') center/cover no-repeat;
+  border-radius: 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  padding: 28px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.mywork-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.78);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.mywork-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mywork-section h2 {
+  font-size: 1.3rem;
+  color: #183153;
+  margin-bottom: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.mywork-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.mywork-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(24,49,83,0.08);
+  width: 210px;
+  cursor: pointer;
+  transition: transform 0.18s, box-shadow 0.18s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  outline: none;
+}
+
+.mywork-card:focus, .mywork-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 18px rgba(24,49,83,0.16);
+}
+
+.mywork-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid #e3e6fa;
+}
+
+.mywork-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin: 14px 0 12px 0;
+} 

@@ -1,0 +1,28 @@
+.header {
+  background: linear-gradient(90deg, #6ec1e4 0%, #b3c6e7 100%);
+  color: #183153;
+  padding: 22px 0 16px 0;
+  box-shadow: 0 2px 8px rgba(110, 193, 228, 0.08);
+}
+
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 1.7rem;
+  margin-bottom: 7px;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+  text-shadow: 0 1px 4px rgba(255,255,255,0.45);
+}
+
+.header-content p {
+  font-size: 1.05rem;
+  opacity: 0.92;
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.35);
+} 
