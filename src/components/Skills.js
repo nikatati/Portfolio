@@ -30,6 +30,12 @@ function Skills() {
             I have experience working with <b>Umbraco CMS</b> and am comfortable using <b>Git</b> & <b>GitHub</b> for version control and collaboration.
           </p>
         </div>
+        <div className="skills-topic">
+          <span className="skills-title">AI Development Tools</span>
+          <p>
+            I am proficient in using modern AI-powered development tools including <b>Cursor</b>, <b>GitHub Copilot</b> and <b>Base44</b>,to enhance my development workflow and productivity.
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -7,6 +7,7 @@ import ProjectBuy2 from './components/ProjectBuy2';
 import ProjectVehicleAgency from './components/ProjectVehicleAgency';
 import ProjectMatchItUp from './components/ProjectMatchItUp';
 import ProjectColorAnalyzer from './components/ProjectColorAnalyzer';
+import ProjectLegacyModernization from './components/ProjectLegacyModernization';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <MyWork />
           </div>
         } />
+        <Route path="/project/legacy-modernization" element={<ProjectLegacyModernization />} />
         <Route path="/project/buy2" element={<ProjectBuy2 />} />
         <Route path="/project/vehicle-agency" element={<ProjectVehicleAgency />} />
         <Route path="/project/matchitup" element={<ProjectMatchItUp />} />

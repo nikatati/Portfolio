@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
+    key: 'legacy-modernization',
+    title: 'Legacy System Modernization',
+    img: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80',
+    alt: 'Legacy system modernization',
+  },
+  {
     key: 'buy2',
     title: 'Buy2 (Online Marketplace)',
     img: 'https://besedo.com/wp-content-ext/uploads/2022/05/besedo-top-online-marketplaces-2022-jpg-webp.webp',
