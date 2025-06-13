@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function Header() {
   return (
@@ -11,5 +12,5 @@ function Header() {
     </header>
   );
 }
-
+  
 export default Header;
