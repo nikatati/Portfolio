@@ -8,11 +8,11 @@ import ProjectVehicleAgency from './components/ProjectVehicleAgency';
 import ProjectMatchItUp from './components/ProjectMatchItUp';
 import ProjectColorAnalyzer from './components/ProjectColorAnalyzer';
 import ProjectLegacyModernization from './components/ProjectLegacyModernization';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={
           <div className="App">
@@ -28,7 +28,7 @@ function App() {
         <Route path="/project/matchitup" element={<ProjectMatchItUp />} />
         <Route path="/project/color-analyzer" element={<ProjectColorAnalyzer />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
